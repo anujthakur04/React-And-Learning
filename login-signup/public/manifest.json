@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Login sign-up",
+  "version": "1.0",
+  "description": "Description of your extension",
+  "permissions": [
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "index.html"
+  }
+}
