@@ -1,5 +1,5 @@
 import React from 'react'
-// import SomeComponents from './Components/SomeComponents'
+import SomeComponents from './Components/SomeComponents'
 import Hook1 from './Hooks/Hook1'
 import HookRef from './Hooks/HookRef'
 import HookMemo from './Hooks/HookMemo'
@@ -9,14 +9,14 @@ import Footer from './Components/Footer'
 import HookReducer from './Hooks/HookReducer'
 import HookLayoutEffect from './Hooks/HookLayoutEffect'
 import HookCustom from './Hooks/HookCustom'
-// import Counter from './Components/Counter'
+import Counter from './Components/Counter'
 
 function App() {
   return (
     <div className='App' style={{ textAlign: 'center' }}>
       {/* <h1>Let's understand lifecycle</h1> */}
-      {/* <SomeComponents fage={50} />
-      <Counter /> */}
+      <SomeComponents fage={50} />
+      {/* <Counter /> */}
       {/* <Hook1 /> */}
       {/* <HookRef /> */}
       {/* <HookMemo /> */}
@@ -25,7 +25,7 @@ function App() {
       {/* <Footer /> */}
       {/* <HookReducer /> */}
       {/* <HookLayoutEffect /> */}
-      <HookCustom />
+      {/* <HookCustom /> */}
     </div>
   )
 }
