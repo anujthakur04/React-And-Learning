@@ -10,6 +10,7 @@ function HookMemo() {
     }
 
     const result = useMemo(() => numCube(number), [number])
+    // const result = numCube(number)
     return (
         <div>
             <input type='number' value={number} onChange={(e) => { setNumber(e.target.value) }} />

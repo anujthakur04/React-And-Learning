@@ -15,12 +15,12 @@ function App() {
   return (
     <div className='App' style={{ textAlign: 'center' }}>
       {/* <h1>Let's understand lifecycle</h1> */}
-      <SomeComponents fage={50} />
+      {/* <SomeComponents fage={50} /> */}
       {/* <Counter /> */}
       {/* <Hook1 /> */}
       {/* <HookRef /> */}
       {/* <HookMemo /> */}
-      {/* <HookCallBack /> */}
+      <HookCallBack />
       {/* <Profile /> */}
       {/* <Footer /> */}
       {/* <HookReducer /> */}
