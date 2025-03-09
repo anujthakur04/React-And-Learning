@@ -20,12 +20,12 @@ function App() {
       {/* <Hook1 /> */}
       {/* <HookRef /> */}
       {/* <HookMemo /> */}
-      <HookCallBack />
+      {/* <HookCallBack /> */}
       {/* <Profile /> */}
       {/* <Footer /> */}
       {/* <HookReducer /> */}
       {/* <HookLayoutEffect /> */}
-      {/* <HookCustom /> */}
+      <HookCustom />
     </div>
   )
 }

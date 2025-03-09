@@ -5,9 +5,9 @@ const HookCustom = () => {
     const [name, setName] = useLocalStorage('username', '')
     return (
         <div>
-            <input type="text" placeholder="Enter your text" value={name}
+            <input type="text" placeholder="Enter your text"
                 onChange={(e) => { setName(e.target.value) }} />
-            <h3>Hello, {name}!</h3>
+            <h3>{name ? `Hello, ${name}!` : 'Hello'}</h3>
         </div>
     )
 }
