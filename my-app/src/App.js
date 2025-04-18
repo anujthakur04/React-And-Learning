@@ -22,10 +22,10 @@ function App() {
       {/* <HookMemo /> */}
       {/* <HookCallBack /> */}
       {/* <Profile /> */}
-      {/* <Footer /> */}
+      <Footer />
       {/* <HookReducer /> */}
       {/* <HookLayoutEffect /> */}
-      <HookCustom />
+      {/* <HookCustom /> */}
     </div>
   )
 }

@@ -14,16 +14,18 @@ class SomeComponents extends Component {
         console.log("Inside getDerviedStateFromProps")
         console.log("The state value is: ", state.age)
         return {
-            age: props.fage
+            // age: props.fage
         }
     }
 
 
     componentDidMount() {
         console.log("Inside componentDidMount")
-        // this.setState({
-        //     age: 555
-        // })
+        setTimeout(() => {
+            this.setState({
+                age: 24
+            })
+        }, 2000)
     }
 
     getSnapshotBeforeUpdate(prevProps, prevState) {

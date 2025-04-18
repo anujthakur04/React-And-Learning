@@ -42,17 +42,10 @@
 
 
 
-
-
-
-
-
-
-
-import React, { useReducer } from "react";
-
+import React, { useReducer } from 'react';
 
 const HookReducer = () => {
+
     let initialState = {
         count: 0
     }
@@ -60,24 +53,23 @@ const HookReducer = () => {
     function reducer(state, action) {
         switch (action.type) {
             case 'increase': {
-                console.log('increase')
                 return { count: state.count + 1 }
             }
             case 'decrease': {
-                console.log('decrease')
                 return { count: state.count - 1 }
             }
         }
 
     }
+
     const [state, dispatch] = useReducer(reducer, initialState)
     return (
         <div>
-            <button onClick={() => dispatch({ type: 'increase' })}>Increase</button>
-            <h2>{state.count}</h2>
-            <button onClick={() => dispatch({ type: 'decrease' })}>decrease</button>
+            <h3>Count : {state.count}</h3>
+            <button onClick={() => dispatch({ type: 'increase' })}> increase</button>
+            <button onClick={() => dispatch({ type: 'decrease' })}>decrease </button>
         </div>
     )
 }
 
-export default HookReducer;
+export default HookReducer
