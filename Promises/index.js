@@ -197,6 +197,8 @@
 // const p = add(10);
 // console.log(p(3));
 
+
+
 /// Famous closures problems !! ////////////////
 
 // function x() {
